@@ -16,6 +16,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: QianChenJun
+          github_token: ${{ secrets.PROFILE_TOKEN || github.token }}
           outputs: |
             dist/github-snake.svg?palette=github-light&color_snake=%230ea5e9
             dist/github-snake-dark.svg?palette=github-dark&color_snake=%2338bdf8
