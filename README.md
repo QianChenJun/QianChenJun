@@ -1,50 +1,70 @@
 <div align="center">
 
-# TStar · QianChenJun
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,55:172554,100:0ea5e9&height=220&section=header&text=TStar&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Android%20automation%20%2F%20Xposed%20%2F%20protocol%20engineering&descAlignY=61&descSize=18&animation=fadeIn" alt="TStar banner" width="100%" />
 
-### Android automation · Xposed modules · protocol engineering
+### 把手机里重复、脆弱的操作，变成会判断、能恢复的自动化系统
 
-我喜欢把复杂、重复、容易出错的手机操作，变成稳定、可观察、可恢复的自动化系统。
-
-[![GitHub](https://img.shields.io/badge/GitHub-QianChenJun-181717?style=flat-square&logo=github)](https://github.com/QianChenJun)
-[![Android](https://img.shields.io/badge/Android-automation-3DDC84?style=flat-square&logo=android&logoColor=white)](https://developer.android.com/)
-[![Kotlin](https://img.shields.io/badge/Kotlin-first-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![GitHub](https://img.shields.io/badge/@QianChenJun-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/QianChenJun)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)](https://developer.android.com/)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 
 </div>
 
-## About me
-
-- 专注 Android 插件、Xposed 注入和移动端自动化
-- 关注协议逆向、状态机、任务调度、故障恢复和运行时诊断
-- 偏好 Kotlin、清晰的边界、可追踪的日志，以及真正能在设备上稳定运行的代码
-- 目前主要在完善 QQ 宠物自动化与相关工具链
-
-## Featured projects
-
-| Project | Description | Stack |
-| --- | --- | --- |
-| [ReQPet](https://github.com/QianChenJun/ReQPet) | Mobile QQ QPet 的 Xposed companion module，自动处理护理、学习、打工、探险和收益结算 | Kotlin · Android · libxposed |
-| [qq-farm-bot](https://github.com/QianChenJun/qq-farm-bot) | QQ/微信经典农场自动化桌面应用 | Electron · Vue 3 · Protocol Buffers |
-
-## What I care about
-
 ```text
-可靠性       不让异常穿透宿主进程，不把一次网络失败变成永久卡死
-自动化       让调度器自己判断下一步，而不是要求用户频繁点按钮
-可观测性     关键请求、状态迁移和失败原因都能被定位
-工程质量     先验证边界，再交付设备；让修复可以复现、回滚和继续演进
+┌─ /home/tstar ───────────────────────────────────────────────┐
+│  observe  →  decide  →  act  →  recover                    │
+│                                                              │
+│  Android plugins     runtime diagnostics     protocol work   │
+│  real-device testing  state machines         quiet automation│
+└──────────────────────────────────────────────────────────────┘
 ```
 
-## Tech stack
+## 当前频道：ReQPet
 
-`Kotlin` `Java` `Android` `Jetpack Compose` `libxposed` `Protocol Buffers`
-`Gradle` `GitHub Actions` `PowerShell` `ADB`
+[ReQPet](https://github.com/QianChenJun/ReQPet) 是一个面向 Mobile QQ QPet 的 Xposed companion module。
 
-## Currently building
+它正在把护理、学习、打工、探险和收益结算串成一条自动路线；重点不是“点一下能跑”，而是状态异常、请求失败、账号切换或 QQ 重启后，系统还能知道自己该做什么。
 
-> ReQPet 正在持续完善：自动护理、学习/打工收益调度、探险避让、收益结算和完整 OIDB 诊断链路。
+<div align="center">
 
-如果你对 Android 自动化、Xposed 模块或移动端协议工程感兴趣，欢迎交流和提出 Issue。
+| 方向 | 我在解决的问题 |
+| :--- | :--- |
+| `Automation` | 自动选择下一步，而不是让用户一直盯着手机 |
+| `Reliability` | 失败退避、状态恢复、宿主零崩溃 |
+| `Observability` | 让每一次状态迁移和协议回包都能被定位 |
+| `Device validation` | 构建成功之后，还要在真实设备上验证 |
+
+</div>
+
+## 精选项目
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [ReQPet](https://github.com/QianChenJun/ReQPet)
+
+Mobile QQ QPet 自动化模块。
+
+`Kotlin` `Android` `Compose` `libxposed`
+
+</td>
+<td width="50%" valign="top">
+
+### [qq-farm-bot](https://github.com/QianChenJun/qq-farm-bot)
+
+QQ/微信经典农场自动化桌面应用。
+
+`Electron` `Vue 3` `Protocol Buffers`
+
+</td>
+</tr>
+</table>
+
+## 工具箱
+
+`Kotlin` · `Java` · `Android` · `Jetpack Compose` · `libxposed`
+`Protocol Buffers` · `Gradle` · `GitHub Actions` · `PowerShell` · `ADB`
 
 <div align="center">
 
