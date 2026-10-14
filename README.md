@@ -11,12 +11,11 @@
 </div>
 
 ```text
-┌─ /home/tstar ───────────────────────────────────────────────┐
-│  observe  →  decide  →  act  →  recover                    │
-│                                                              │
-│  Android plugins     runtime diagnostics     protocol work   │
-│  real-device testing  state machines         quiet automation│
-└──────────────────────────────────────────────────────────────┘
++-- /home/tstar ---------------------------------------------+
+| observe -> decide -> act -> recover                        |
+|                                                            |
+| Android / Xposed / protocol / real-device testing          |
++------------------------------------------------------------+
 ```
 
 ## 当前频道：ReQPet
