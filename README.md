@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,55:172554,100:0ea5e9&height=220&section=header&text=TStar&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Android%20automation%20%2F%20Xposed%20%2F%20protocol%20engineering&descAlignY=61&descSize=18&animation=fadeIn" alt="TStar banner" width="100%" />
 
-### 把手机里重复、脆弱的操作，变成会判断、能恢复的自动化系统
+### 折腾 Android、Xposed，以及那些不肯按说明书工作的协议
 
 [![GitHub](https://img.shields.io/badge/@QianChenJun-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/QianChenJun)
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)](https://developer.android.com/)
@@ -65,6 +65,14 @@ QQ/微信经典农场自动化桌面应用。
 
 `Kotlin` · `Java` · `Android` · `Jetpack Compose` · `libxposed`
 `Protocol Buffers` · `Gradle` · `GitHub Actions` · `PowerShell` · `ADB`
+
+## 🐍 提交在逃
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QianChenJun/QianChenJun/gh-pages/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/QianChenJun/QianChenJun/gh-pages/github-snake.svg" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/QianChenJun/QianChenJun/gh-pages/github-snake.svg" />
+</picture>
 
 <div align="center">
 
