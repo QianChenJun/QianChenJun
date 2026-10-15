@@ -68,9 +68,9 @@ QQ/微信经典农场自动化桌面应用。
 ## 🐍 提交在逃
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QianChenJun/QianChenJun/gh-pages/github-snake-dark.svg?v=20261014" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/QianChenJun/QianChenJun/gh-pages/github-snake.svg?v=20261014" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/QianChenJun/QianChenJun/gh-pages/github-snake.svg?v=20261014" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QianChenJun/QianChenJun/gh-pages/github-snake-dark.svg?v=20261015" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/QianChenJun/QianChenJun/gh-pages/github-snake.svg?v=20261015" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/QianChenJun/QianChenJun/gh-pages/github-snake.svg?v=20261015" />
 </picture>
 
 <div align="center">
